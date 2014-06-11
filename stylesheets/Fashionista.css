@@ -1,0 +1,217 @@
+Fashionista.css
+
+html{ background-color:#9cd3a7;
+     
+       
+       }
+
+@font-face{
+       font-family: 'Salaryman';
+       src:url('SALARYMA.ttf') format('truetype');
+       font-family: 'Bellota';
+       src:url('Bellota-Regular.otf');
+       font-family: 'Desyrel';
+       src:url('desyrel.ttf'); 
+       font-family: 'jr!hand';
+       src:url('jr!ha_.ttf');
+      
+     }
+div{
+  display: inline-block;
+} 
+
+body{
+      
+	   	 width:auto;
+       height:66%;    
+       margin: auto;
+	     font-family: Arial,verdana, sans-serif;
+       font-size: 1em;
+	     color:#fe2204;
+       background-color: #F1F1F1;
+       
+    }
+
+header{
+  background-color: white;
+  height: 7em;
+
+
+}
+   h1{
+    position:absolute;
+    top:0em;
+    left:12em;
+    font-family: 'Ruthie';
+    color: #FF000A;
+    font-size: 3em;
+    
+   }
+ 
+
+  .login_links{
+    position: relative;
+    top:5em;
+    left: 70em;
+    color:rgba(0,0,0,0.5);
+    font-family: 'Salaryman';
+  }
+
+  
+  
+    .login{
+    
+    width:60px;
+    height: 20px;
+    border-right: 1px solid #e6e7e7;
+    padding-right: 1.5em;
+
+  }
+
+    .register{
+    
+    width:60px;
+    height:20px;
+    padding-left: 1em;
+  }
+
+  .search{
+  position: absolute;
+  top:4.5em;
+  left:3em;
+  }
+
+    .button{
+    background-color: #e6e7e7;
+    border:1px solid #afc3c3;
+   }
+    
+    .input{
+    border: 3px solid #e6e7e7;
+    
+    }
+  
+  .logo{
+    
+    font-size: 4em;
+    padding-left: .25em;
+    margin-left: 1.2em;
+    padding-top: .25em;
+    border:2px solid #FF000A;
+    border-radius: 50%;
+    width:75px;
+    height:75px;
+    font-family: 'Ruthie';
+    
+   }
+
+     
+      
+      ul{
+        list-style-type: none;
+        margin:0;
+        padding:0;
+        display:inline-block;
+       }
+
+      li{display:inline-block;
+         position:relative;
+       }
+
+      li a{
+         display: inline-block;
+
+
+      }
+      
+      a:link{color:#1e1818;text-decoration:none;}
+      a:hover{color:rgba(0,0,0,0.5);}
+      a:active{color:#e4f801;}
+      a:current{color:#e4f801;}
+
+       .logo a:link{
+        color:#FF000A;
+      }
+
+      .logo:hover{
+        border-color: #f6f7f7;
+      }
+
+  article{
+    width:70%;
+    height: 73%;
+    position: relative;
+    top:0em;
+    left:18em;
+    color: #490901;
+    margin-top: 5px;
+    margin-bottom: 5px;
+   }
+
+      .thumbs img{
+    border:5px solid #f6f7f7;
+  }
+
+      .thumbs img:hover{
+    border-color: red;
+  }
+
+  .topmenu{
+      
+         display: inline-block;
+         position: relative;
+         left:1.5em;
+         top:-12em;
+         font-size:1em;
+         font-family: 'Salaryman';
+         font-weight: ;
+         padding-top: 1.5em;
+         background-color: #;
+         font-weight:bold;
+         width:200px;
+         height:200px;
+        }
+
+
+      .Blog{
+      
+      
+      padding:0px 70px 10px 90px;
+      text-align:center;
+     
+      }
+         
+      .Shop{ 
+      text-align:center;
+      padding:10px 70px 10px 90px;
+            
+    }
+
+      .Looks{
+        
+        padding:10px 70px 10px 90px;
+        text-align:center;
+      
+      }
+
+      .About{
+        
+        padding:10px 70px 10px 90px;
+        text-align:center;
+        
+      }
+  
+   
+
+
+footer{
+    
+    height:8em;
+    background-color: #afc3c3;
+
+  }
+
+     .icons{
+    margin-left: 30em;
+
+  }
