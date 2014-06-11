@@ -212,6 +212,15 @@ footer{
   }
 
      .icons{
-    margin-left: 30em;
+    padding-left: 30em;
 
+
+  }
+
+  .LinkedIn{
+    padding-right: 5em;
+  }
+
+  .facebook{
+    padding-right: 5em;
   }
